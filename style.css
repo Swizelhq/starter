@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;600%display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: #E7EBF2;
+}
+
+/* .wrapper{
+  width: 330px;
+  height: 657px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 60px;
+  margin: 50px auto;
+  gap: 32px;
+  position: absolute;
+  width: 657px;
+  height: 809px;
+  left: 1102px;
+  top: 140px;
+  background: #FFFFFF;
+  border-radius: 10px;
+} */
+
+.wrapper{
+  width: 657px;
+  /* height: 809px; */
+  padding: 80px 60px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  left: 1102px;
+  right: 140px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+}
+
+h1 strong{
+  color: #d41d24;
+  font-family: sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 61px;
+  width: 537px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+h1{
+  color: #153060;
+  font-family: sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+  width: 537px;
+  flex: none;
+  flex-grow: 0;
+}
+
+h2{
+  color: #153060;
+  font-family: sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52px;
+  width: 537px;
+  flex: none;
+  flex-grow: 0;
+}
+
+.form-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 24px;
+  width: 537px;
+  height: 420px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.holder{
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 256px;
+  letter-spacing: 0.25px;
+  color: #153060;
+}
+
+.form-container input{
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px;
+  margin-bottom: 24px;
+  border: 1px solid #eaeaea;
+  top: 24px;
+  gap: 10px;
+  width: 537px;
+  height: 56px;
+  background: #fafafa;
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#checkbox label{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 290px;
+  height: 24px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 537px;
+  height: 60px;
+  padding: 18px 32px;
+  gap: 10px;
+  background: #1E4178;
+  border: 1px solid #1E4178;
+  border-radius: 5px;
+  color: #E7EBF2;
+}
+
+
+.log{
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  width: 158px;
+  height: 52px;
+  padding: 16px 32px;
+  left: 1557px;
+  top: 36px;
+  gap: 10px;
+  background: #1E4178;
+  border: 1px solid #1E4178;
+  border-radius: 5px;
+  color: #E7EBF2;
+}
+
+a{
+  font-size: 14px;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color:  #F2451C;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  text-decoration: none;
+  align-items: center;
+}
+
+.top-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 60px;
+  gap: 32px;
+  position: absolute;
+  width: 657px;
+  height: 581px;
+  left: 632px;
+  top: 249px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.para{
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 537px;
+  letter-spacing: 0.15px;
+  color: #828282;
+}
+
+svg{
+  position: absolute;
+  left: 16.68%;
+  right: 56.03%;
+  top: 31.2%;
+  bottom: 30.72%;
+
+  transform: rotate(0.73deg);
+}
+
+.random{
+  position: absolute;
+  width: 105.83px;
+  height: 259.24px;
+  left: 938px;
+  top: 180px;
+}
+
+.leggo{
+  box-sizing: border-box;
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  left: 761px;
+  top: 189px;
+}
+
+.yuma{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 312px;
+  top: 305px;
+}
+
+.eren{
+  position: absolute;
+  width: 269px;
+  height: 73px;
+  left: 861px;
+  top: 827px;
+}
+
+.levi{
+  position: absolute;
+  width: 269px;
+  height: 73px;
+  left: 0px;
+  top: 215px;
+
+}
+
+.zeke{
+  position: absolute;
+  width: 269px;
+  height: 73px;
+  left: 1651px;
+  top: 208px;
+}
+
+.armin{
+  position: absolute;
+  width: 105.83px;
+  height: 291.65px;
+  left: 1428px;
+  top: 214px;
+
+}
+
+.asta{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  left: 985px;
+  top: 176px;
+}
+
+.yuno{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 1534px;
+  top: 772px;
+}
+
+.luffy{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 1651px;
+  top: 601px;
+
+}
+
+.zoro{
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  left: 312px;
+  top: 308px;
+}
+
+.doji{
+  position: absolute;
+  width: 269px;
+  height: 73px;
+  left: 861px;
+  top: 830px;
+
+}
+
+.crown{
+  position: absolute;
+  width: 269px;
+  height: 73px;
+  left: 0px;
+  top: 218px;
+}
+
+.fibonnaci{
+  position: absolute;
+  width: 269px;
+  height: 73px;
+  left: 1651px;
+  top: 211px;
+
+}
